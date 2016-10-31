@@ -1,0 +1,123 @@
+/*Header*/
+
+#logo {
+	width: 250px;
+	height: 70px;
+	text-align: center;
+	background: #ccc;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+/*General Formatting*/
+
+body {
+		background: url("../images/symphony/symphony/symphony.png");
+}
+
+h1 {
+	border-bottom: 3px solid #ddd;
+	padding: 0 0 20px 20px;
+}
+
+.main-section {
+	padding: 20px;
+	max-width: 650px;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+
+.sidebar {
+	padding: 10px;
+	width: 100%;
+	max-width: 270px;
+	float: right;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	text-align: center;
+	background: #fff;
+}
+
+h2 {
+	border-bottom: 2px solid #eee;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 22px;
+	font-size: 30px;
+}
+
+.social {
+	width: 62px;
+	height: 62px;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+
+h3 {
+	font-size: 22px;
+	margin-bottom: 15px;
+	padding-bottom: 20px;
+}
+
+/*Specific to About Me*/
+
+.auth-image {
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
+}
+
+/*Specific to Portfolio*/
+
+.work {
+		width: 274px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 0 25px;
+}
+
+.work:nth-child(even) {
+	margin-right: 40px;
+}
+
+.work img {
+	width: 100%;
+	border: 0 none;
+	opacity: .8;
+}
+
+
+.work h3 {
+	border-bottom: 0;
+	background: #396acc;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	padding: 15px;
+	width: 100%;
+	bottom: 20px;
+	line-height: 30px;
+	margin-bottom: 0;
+	font-weight: 300;
+}
+
+/*Specific to Contact*/
+
+button[type=submit] {
+	background: #396acc;
+	border: 0 none;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+/*Specific to footer */
+
+.footer {
+	background: #ccc;
+	color: #396acc;
+	border-top: 8px solid #396acc;
+	font-size: 12px;
+}
